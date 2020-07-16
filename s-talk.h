@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <stdlib.h>
 #include <errno.h>
-#define BUFFER_SIZE 100
+#define BUFFER_SIZE 512
 #define BAD_SOCKET  -1
 typdef struct thread_constructor{
     List *pList;
